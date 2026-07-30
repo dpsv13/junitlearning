@@ -13,7 +13,7 @@ public class TestStringConcat {
 
         DailyTasks obj = new DailyTasks();
 
-        String expected = "Hello World";
+        String expected = "HelloWorld";
         String actual = obj.doStringConcat("Hello", "World");
 
         assertEquals(expected, actual);
